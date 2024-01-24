@@ -149,7 +149,7 @@ mongoose
         console.log("Conectou ao banco");
 
         app.listen(port, () => {
-            console.log('Servidor rodando na porta ${port}');
+            console.log(`Servidor rodando na porta ${port}`);
         });
     })
     .catch((err) => console.log(err));
